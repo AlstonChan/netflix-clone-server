@@ -1,0 +1,25 @@
+{
+  "name": "netflix-server",
+  "version": "1.0.0",
+  "description": "a backend server for netflix clone",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "type": "module",
+  "author": "Chan Alston",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.1",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "eslint": "^8.6.0",
+    "nodemon": "^2.0.15"
+  }
+}
